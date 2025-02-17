@@ -36,6 +36,7 @@ input,textarea,button,label {
   display: flex;
   width: 100%;
   height: 46px;
+  background: #fff;
   border: 1px solid #d8d8d8;
   border-radius: 6px;
 }
