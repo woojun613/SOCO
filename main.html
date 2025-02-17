@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-menu">
+      <div class="top-menu-icon">
+        <a href="#"><img src="/images/logo.svg" alt=""></a>
+        <ul>
+          <li><a href=""><img src="/images/icon-search.svg" alt=""></a></li>
+          <li><a href=""><img src="/images/icon-bacode.svg" alt=""></a></li>
+          <li><a href=""><img src="/images/icon-bell.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div class="search-box">
+        <img src="/images/icon-search.svg" alt="">
+        <input type="search" placeholder="종목, 지역, 리그, 상품 등 검색해보세요!">
+      </div>
+    </div>
+
+    <div class="top-menu-txt">
+      <h3>
+        복잡한 사회인 스포츠,<br>
+        연동하고 간편하게 관리하세요.
+      </h3>
+      <a href="#">계정 연동하기 ></a>
+    </div>
+
+    <div class="main-banner-01"></div>
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="/images/icon_home-check.svg" alt="">
+            <p>홈</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-talk.svg" alt="">
+            <p>쏘픽</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-sports.svg" alt="">
+            <p>스포츠</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-shop.svg" alt="">
+            <p>쇼핑</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-my.svg" alt="">
+            <p>MY</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <article class="art-01">
+      <div class="art-01-txt">
+        <p>소코가 처음이신가요?</p>
+        <a href="#">가이드 보러가기 ></a>
+      </div>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script>
+        const swiper = new Swiper('.swiper', {
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+    </article>
+
+    <article class="art-02">
+      <h4>이런 스포츠는 어때요?</h4>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="/images/icon-baseball.svg" alt="">
+            <p>야구</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-soccer.svg" alt="">
+            <p>축구</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-golf.svg" alt="">
+            <p>골프</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-tennis.svg" alt="">
+            <p>테니스</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-badminton.svg" alt="">
+            <p>배드민턴</p>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="/images/icon-basketball.svg" alt="">
+            <p>농구</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-bowling.svg" alt="">
+            <p>볼링</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-billiards.svg" alt="">
+            <p>당구</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-volleyball.svg" alt="">
+            <p>배구</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/images/icon-tableTennis.svg" alt="">
+            <p>탁구</p>
+          </a>
+        </li>
+      </ul>
+    </article>
+
+    <article class="art-03">
+      <div class="art-03-txt">
+        <h4>요즘 핫한 매장</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="overflow">
+        <div class="art-03-content">
+          <div class="art-03-box art-03-box-01">
+            <div class="art-03-img art-03-img-01">
+              <div class="bookmark bookmark-off"></div>
+            </div>
+            <div class="art-03-content-title flex">
+              <h5>락테니스 가로수길점</h5>
+              <img src="/images/icon-new.svg" alt="">
+            </div>
+            <p>서울 영등포구 당산로48길 6 6층</p>
+            <div class="art-03-content-review flex">
+              <img src="/images/icon-star.svg" alt="">
+              <p><span class="bold">4.7</span>(306)</p>
+            </div>
+          </div>
+
+          <div class="art-03-box art-03-box-02">
+            <div class="art-03-img art-03-img-02">
+              <div class="bookmark bookmark-off"></div>
+            </div>
+            <div class="art-03-content-title flex">
+              <h5>라이언훕 농구교실</h5>
+              <img src="/images/icon-new.svg" alt="">
+            </div>
+            <p>경기 광명시 광명로 955 2층</p>
+            <div class="art-03-content-review flex">
+              <img src="/images/icon-star.svg" alt="">
+              <p><span class="bold">4.7</span>(306)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="art-04">
+      <div class="art-04-txt">
+        <h4>소코몰 인기 랭킹</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="art-04-content">
+        <div class="art-04-box art-04-box-01">
+          <div class="art-04-img art-04-img-01">
+            <div class="hreat hreat-off"></div>
+          </div>
+          <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+          <div class="art-04-content-review flex">
+            <p>389,400<span class="won">원</span></p>
+            <p>23%</p>
+          </div>
+        </div>
+
+        <div class="art-04-box art-04-box-02">
+          <div class="art-04-img art-04-img-02">
+            <div class="hreat hreat-off"></div>
+          </div>
+          <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+          <div class="art-04-content-review flex">
+            <p>389,400<span class="won">원</span></p>
+            <p>23%</p>
+          </div>
+        </div>
+
+        <div class="art-04-box art-04-box-03">
+          <div class="art-04-img art-04-img-03">
+            <div class="hreat hreat-off"></div>
+          </div>
+          <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+          <div class="art-04-content-review flex">
+            <p>389,400<span class="won">원</span></p>
+            <p>23%</p>
+          </div>
+        </div>
+
+        <div class="art-04-box art-04-box-04">
+          <div class="art-04-img art-04-img-04">
+            <div class="hreat hreat-off"></div>
+          </div>
+          <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+          <div class="art-04-content-review flex">
+            <p>389,400<span class="won">원</span></p>
+            <p>23%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </article>
+  </section>
+
+  <footer>
+
+  </footer>
+</body>
+</html>

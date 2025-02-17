@@ -1,6 +1,13 @@
 @charset "utf-8";
 
+body {
+  padding: 10px;
+}
 
+h3 {
+  font-weight: 700;
+  color: #115740;
+}
 /* ========== 스와이퍼 ========== */
 
 .swiper {
@@ -57,9 +64,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   top: var(--swiper-pagination-top, 80%);
 }
 
-/* ========== 스와이퍼 ========== */
-
-
+/* ========== 본문 ========== */
 .txt-wrap {
   margin: 12% auto 0; 
   text-align: center;
