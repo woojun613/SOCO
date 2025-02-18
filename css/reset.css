@@ -63,7 +63,7 @@ input::placeholder {
   border-radius: 5px;
   background-color: white;
   appearance: none;
-  background: url('/images/icon-select.svg');
+  background: url('../images/icon-select.svg');
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
