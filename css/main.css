@@ -32,7 +32,7 @@
   margin-top: -20px;
   width: 100%;
   height: 149px;
-  background: url('images/main-01.png') center center no-repeat;
+  background: url('../images/main-01.png') center center no-repeat;
   z-index: -1;
 }
 
@@ -82,8 +82,8 @@ nav ul li a p {
   bottom: 4px;
   right: 6px;
 }
-.hreat-on {background: url('images/icon-hreat.svg') center center no-repeat;}
-.hreat-off {background: url('images/icon-hreat-wt.svg') center center no-repeat;}
+.hreat-on {background: url('../images/icon-hreat.svg') center center no-repeat;}
+.hreat-off {background: url('../images/icon-hreat-wt.svg') center center no-repeat;}
 
 .bookmark {
   width: 26px;
@@ -92,8 +92,8 @@ nav ul li a p {
   bottom: 4px;
   right: 6px;
 }
-.bookmark-on {background: url('images/icon-bookmark.svg') center center no-repeat;}
-.bookmark-off {background: url('images/icon-bookmark-wt.svg') center center no-repeat;}
+.bookmark-on {background: url('../images/icon-bookmark.svg') center center no-repeat;}
+.bookmark-off {background: url('../images/icon-bookmark-wt.svg') center center no-repeat;}
 
 /* ========== section 01 ========== */
 section {
@@ -132,17 +132,17 @@ section {
 /* 스와이퍼 */
 .swiper-slide {width: 100%; height: 130px;}
 .slide-01 {
-  background: url('images/main-02-01.jpg');
+  background: url('../images/main-02-01.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
 .slide-02 {
-  background: url('images/main-02-02.jpg');
+  background: url('../images/main-02-02.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
 .slide-03 {
-  background: url('images/main-02-01.jpg');
+  background: url('../images/main-02-01.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -233,12 +233,12 @@ bottom: var(--swiper-pagination-bottom, 20px);
 
 .art-03-img-01 {
   border-radius: 8px 8px 0 0;
-  background: url('images/main-03-01.jpg') center center no-repeat; 
+  background: url('../images/main-03-01.jpg') center center no-repeat; 
   background-size: cover;
 }
 .art-03-img-02 {
   border-radius: 8px 8px 0 0;
-  background: url('images/main-03-02.jpg') center center no-repeat; 
+  background: url('../images/main-03-02.jpg') center center no-repeat; 
   background-size: cover;
 }
 .art-03-content-title {
@@ -293,10 +293,10 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-bottom: 16px;
   border-radius: 8px;
 }
-.art-04-img-01 {background: url('images/main-04-01.jpg') center center no-repeat;}
-.art-04-img-02 {background: url('images/main-04-02.jpg') center center no-repeat;}
-.art-04-img-03 {background: url('images/main-04-03.jpg') center center no-repeat;}
-.art-04-img-04 {background: url('images/main-04-04.jpg') center center no-repeat;}
+.art-04-img-01 {background: url('../images/main-04-01.jpg') center center no-repeat;}
+.art-04-img-02 {background: url('../images/main-04-02.jpg') center center no-repeat;}
+.art-04-img-03 {background: url('../images/main-04-03.jpg') center center no-repeat;}
+.art-04-img-04 {background: url('../images/main-04-04.jpg') center center no-repeat;}
 .art-04-box > p {
   font-weight: 300;
   color: #959595;
@@ -485,12 +485,12 @@ bottom: var(--swiper-pagination-bottom, 20px);
 }
 .art-07-img-01 {
   border-radius: 8px 8px 0 0;
-  background: url('images/main-07-01.jpg') center center no-repeat; 
+  background: url('../images/main-07-01.jpg') center center no-repeat; 
   background-size: cover;
 }
 .art-07-img-02 {
   border-radius: 8px 8px 0 0;
-  background: url('images/main-07-02.jpg') center center no-repeat; 
+  background: url('../images/main-07-02.jpg') center center no-repeat; 
   background-size: cover;
 }
 .art-07-content-title {
@@ -541,8 +541,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   width: 240px;
   height: 340px;
 }
-.art-08-box-01 {background: url('images/main-08-01.jpg') center center no-repeat;}
-.art-08-box-02 {background: url('images/main-08-02.jpg') center center no-repeat;}
+.art-08-box-01 {background: url('../images/main-08-01.jpg') center center no-repeat;}
+.art-08-box-02 {background: url('../images/main-08-02.jpg') center center no-repeat;}
 
 .art-08-box > div {
   position: absolute;
@@ -590,7 +590,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-top: 24px;
   width: 100%;
   height: 240px;
-  background: url('images/main-09.jpg') center center no-repeat;
+  background: url('../images/main-09.jpg') center center no-repeat;
   background-size: cover;
   border-radius: 8px;
 }
