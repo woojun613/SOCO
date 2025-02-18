@@ -10,6 +10,7 @@ body {
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 14px;
 }
+h2 {font-size: 24px;}
 h3, h4, h5 {font-weight: 500;}
 h3 {font-size: 20px;}
 h4 {font-size: 17px;}
@@ -51,6 +52,21 @@ input::placeholder {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   color: #a9a9ac;
 }
+.event-select {
+  margin-left: 16px;
+  width: 96px;
+  padding: 6px;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 13px;
+  color: #616163;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: white;
+  appearance: none;
+  background: url('/images/icon-select.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
 .btn {
   height: 140px;
   border-radius: 6px;
@@ -63,4 +79,13 @@ input::placeholder {
   background: #115740;
   color: #fff;
 }
-.flex {display: flex;}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
