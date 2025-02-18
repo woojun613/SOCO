@@ -32,7 +32,7 @@
   margin-top: -20px;
   width: 100%;
   height: 149px;
-  background: url('/images/main-01.png') center center no-repeat;
+  background: url('images/main-01.png') center center no-repeat;
   z-index: -1;
 }
 
@@ -95,7 +95,7 @@ section {
 .swiper-slide {
   width: 100%;
   height: 130px;
-  background: url('/images/main-02.jpg');
+  background: url('images/main-02.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -160,7 +160,6 @@ bottom: var(--swiper-pagination-bottom, 20px);
 .overflow {
   width: 100%;
   overflow: auto;
-  /* white-space: nowrap; */
   scrollbar-width: none;
 }
 .art-03-content {
@@ -195,15 +194,15 @@ bottom: var(--swiper-pagination-bottom, 20px);
   right: 6px;
 }
 
-.bookmark-on {background: url('/images/icon-bookmark.svg') center center no-repeat;}
-.bookmark-off {background: url('/images/icon-bookmark-wt.svg') center center no-repeat;}
+.bookmark-on {background: url('images/icon-bookmark.svg') center center no-repeat;}
+.bookmark-off {background: url('images/icon-bookmark-wt.svg') center center no-repeat;}
 
 .art-03-img-01 {
-  background: url('/images/main-03-01.jpg') center center no-repeat; 
+  background: url('images/main-03-01.jpg') center center no-repeat; 
   background-size: contain;
 }
 .art-03-img-02 {
-  background: url('/images/main-03-02.jpg') center center no-repeat; 
+  background: url('images/main-03-02.jpg') center center no-repeat; 
   background-size: contain;
 }
 .art-03-content-title {
@@ -268,13 +267,13 @@ bottom: var(--swiper-pagination-bottom, 20px);
   bottom: 4px;
   right: 6px;
 }
-.hreat-on {background: url('/images/icon-hreat.svg') center center no-repeat;}
-.hreat-off {background: url('/images/icon-hreat-wt.svg') center center no-repeat;}
+.hreat-on {background: url('images/icon-hreat.svg') center center no-repeat;}
+.hreat-off {background: url('images/icon-hreat-wt.svg') center center no-repeat;}
 
-.art-04-img-01 {background: url('/images/main-04-01.jpg') center center no-repeat;}
-.art-04-img-02 {background: url('/images/main-04-02.jpg') center center no-repeat;}
-.art-04-img-03 {background: url('/images/main-04-03.jpg') center center no-repeat;}
-.art-04-img-04 {background: url('/images/main-04-04.jpg') center center no-repeat;}
+.art-04-img-01 {background: url('images/main-04-01.jpg') center center no-repeat;}
+.art-04-img-02 {background: url('images/main-04-02.jpg') center center no-repeat;}
+.art-04-img-03 {background: url('images/main-04-03.jpg') center center no-repeat;}
+.art-04-img-04 {background: url('images/main-04-04.jpg') center center no-repeat;}
 .art-04-box > p {
   font-weight: 300;
   color: #959595;
