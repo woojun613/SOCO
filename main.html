@@ -7,40 +7,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/main.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    // 탑으로 이동하는 버튼
-    $(function() {
-      $(window).scroll(function() {
-        if ($(this).scrollTop() > 500) {
-          $('#top-btn').fadeIn();
-        } else {
-          $('#top-btn').fadeOut();
-        } 
-      });
-
-      $("#top-btn").click(function() {
-        $('html, body').animate({
-          scrollTop : 0
-        }, 400);
-          return false;
-      });
-    });
-
-    // 좋아요 스크랩
-    $(function(){
-      $(".bookmark").click(function(){
-        $(this).toggleClass("bookmark-off")
-        $(this).toggleClass("bookmark-on")
-      });
-
-      $(".hreat").click(function(){
-        $(this).toggleClass("hreat-off")
-        $(this).toggleClass("hreat-on")
-      });
-    })
-  </script>
+  <script src="js/main.js"></script>
 </head>
 <body>
   <header>
