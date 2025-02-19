@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>main</title>
+  <title>main-game</title>
   <link rel="shortcut icon" href="images/favicon.svg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/reset.css" />
@@ -16,7 +16,7 @@
   <header>
     <div class="top-menu">
       <div class="top-menu-icon">
-        <a href="#"><img src="images/logo.svg" alt=""></a>
+        <a href="main.html"><img src="images/logo.svg" alt=""></a>
         <ul>
           <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
           <li><a href="main-game.html"><img src="images/icon-bacode.svg" alt=""></a></li>
@@ -30,16 +30,51 @@
       </div>
     </div>
 
-    <div class="top-menu-txt">
-      <h3>
-        복잡한 사회인 스포츠,<br>
-        연동하고 간편하게 관리하세요.
-      </h3>
-      <a href="#">계정 연동하기 ></a>
+    <!-- ========== game ========== -->
+    <div class="top-game">
+      <div class="top-game-txt flex-between">
+        <div class="flex">
+          <a href="main-game.html">참여하기</a>
+          <a href="main-game-manag.html">관리하기</a>
+        </div>
+        <a href=""><img src="images/icon-more.svg" alt=""></a>
+      </div>
+
+      <div class="top-game-bn">
+        <div class="top-game-bn-01">
+          <a href="">
+            <h3>매장, 필드 예약</h3>
+            <p>현재 위치 기반</p>
+          </a>
+          <div>
+            <a href="">
+              <h5 class="m-game-title">팀 찾기</h5>
+              <p class="m-game-txt">팀에 참여하기</p>
+              <img src="images/icon-game-01.svg" alt="" class="m-game-icon">
+            </a>
+            <a href="">
+              <h5 class="m-game-title">팀원 찾기</h5>
+              <p class="m-game-txt">팀원 모집하기</p>
+            <img src="images/icon-game-02.svg" alt="" class="m-game-icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="top-game-bn-02 flex">
+          <a href="">
+            <h5 class="m-game-title">매칭</h5>
+            <p class="m-game-txt">상대팀 찾기</p>
+            <img src="images/icon-game-03.svg" alt="" class="m-game-icon">
+          </a>
+          <a href="">
+            <h5 class="m-game-title">리그 찾기</h5>
+            <p class="m-game-txt">곧 진행할 리그에 참여해보세요</p>
+            <img src="images/icon-game-04.svg" alt="" class="m-game-icon">
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="main-banner-01"></div>
-    
     <nav>
       <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
       <ul>

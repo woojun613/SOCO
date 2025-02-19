@@ -15,9 +15,7 @@
   display: flex;
   margin-left: 2px;
 }
-.search-box {
-  margin-top: 10px;
-}
+.search-box {margin-top: 10px;}
 .top-menu-txt {
   margin-top: 50px;
   padding-left: 20px;
@@ -36,6 +34,95 @@
   z-index: -1;
 }
 
+
+/* ========== main game ========== */
+.top-game {
+  margin-top: 32px;
+  margin-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-game-txt > div > a {
+  width: 80px;
+  height: 32px;
+  background: #115740;
+  font-weight: 300;
+  color: #f8f9f9;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 6px;
+}
+.top-game-txt > div > a:last-child {
+  margin-left: 8px;
+  background: none;
+  color: #959595;
+}
+.top-game-bn {margin-top: 24px;}
+.top-game-bn a {
+  position: relative;
+  border-radius: 8px;
+}
+.top-game-bn-01 {
+  display: flex;
+  justify-content: space-between;
+}
+.top-game-bn-01 > a {
+  width: 63%;
+  height: 296px;
+  background: url('../images/bg-golf.jpg') center center no-repeat;
+  background-size: cover;
+}
+.top-game-bn-01 > a > h3 {
+  position: absolute;
+  left: 16px;
+  bottom: 50px;
+  font-weight: 400;
+  color: #fff;
+}
+.top-game-bn-01 > a > p {
+  position: absolute;
+  left: 16px;
+  bottom: 28px;
+  font-weight: 300;
+  color: #f4f5f6;
+}
+.top-game-bn-01 > div {width: 34%;}
+.top-game-bn-01 > div > a {
+  height: 144px;
+  background: #fff;
+}
+.top-game-bn-01 > div > a:last-child {margin-top: 8px;}
+.top-game-bn-02 {
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.top-game-bn-02 a {
+  background: #fff;
+  height: 114px;
+}
+.top-game-bn-02 a:first-child {width: 34%;}
+.top-game-bn-02 a:last-child {width: 63%;}
+.m-game-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.m-game-title {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  font-weight: 400;
+  color: #343434;
+}
+.m-game-txt {
+  position: absolute;
+  top: 34px;
+  left: 14px;
+  font-weight: 300;
+  color: #a9a9ac;
+}
+
+
 /* ========== nav ========== */
 #top-btn {
   position: fixed;
@@ -50,9 +137,7 @@
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
   z-index: 999;
 }
-#top-btn img {
-  margin-top: 9px;
-}
+#top-btn img {margin-top: 9px;}
 nav ul {
   position: fixed;
   display: flex;
@@ -74,6 +159,7 @@ nav ul li a p {
   color: #737373;
 }
 
+
 /* ========== 좋아요, 북마크 ========== */
 .hreat {
   width: 26px;
@@ -94,6 +180,7 @@ nav ul li a p {
 }
 .bookmark-on {background: url('../images/icon-bookmark.svg') center center no-repeat;}
 .bookmark-off {background: url('../images/icon-bookmark-wt.svg') center center no-repeat;}
+
 
 /* ========== section 01 ========== */
 section {
@@ -129,6 +216,7 @@ section {
   border-radius: 6px;
 }
 
+
 /* 스와이퍼 */
 .swiper-slide {width: 100%; height: 130px;}
 .slide-01 {
@@ -146,6 +234,8 @@ section {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
 /* 페이저 버튼 */
 .swiper-pagination-bullet {transition:all 0.3s ease-in;}
 
@@ -155,13 +245,15 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   border-radius: 8px;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, 
+.swiper-pagination-fraction {
 bottom: var(--swiper-pagination-bottom, 20px);
 }
 
-.swiper-pagination {
-  margin-top: 100px;
-}
+.swiper-pagination {margin-top: 100px;}
+
 
 /* ========== section 02 ========== */
 .art-02 {
@@ -184,6 +276,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   font-size: 13px;
   color: #959595;
 }
+
 
 /* ========== section 03 ========== */
 .art-03 {
@@ -261,6 +354,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   color: #343434;
 }
 
+
 /* ========== section 04 ========== */
 .art-04 {
   margin-top: 50px;
@@ -284,9 +378,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   flex-wrap: wrap;
   margin-top: 24px;
 }
-.art-04-box {
-  width: 49%;
-}
+.art-04-box {width: 49%;}
 .art-04-img {
   position: relative;
   height: 210px;
@@ -321,6 +413,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-left: 1px;
 }
 
+
 /* ========== section 05 ========== */
 .art-05 {
   margin-top: 50px;
@@ -345,9 +438,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-top: 24px;
   border-bottom: 1px solid #eee;
 }
-.art-05-box-01 img {
-  width: 100%;
-}
+.art-05-box-01 img {width: 100%;}
 .art-05-box-01 h4 {
   margin-top: 24px;
   margin-bottom: 16px;
@@ -403,12 +494,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   position: relative;
   margin-top: 24px;
 }
-.art-06-box {
-  width: 120px;
-}
-.art-06-box img {
-  width: 100%;
-}
+.art-06-box {width: 120px;}
+.art-06-box img {width: 100%;}
 .art-06-box h5 {
   margin-top: 12px;
   padding-left: 2px;
@@ -425,9 +512,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   font-size: 13px;
   color: #a9a9ac;
 }
-.art-06-box-03 {
-  margin-right: 20px;
-}
+.art-06-box-03 {margin-right: 20px;}
+
 
 /* ========== section 07 ========== */
 .art-07 {
@@ -458,9 +544,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   border: 1px solid #eee;
   border-radius: 8px;
 }
-.art-07-box-02 {
-  margin-right: 20px;
-}
+.art-07-box-02 {margin-right: 20px;}
 .art-07-img {
   position: relative;
   height: 140px;
@@ -499,9 +583,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-left: 10px;
   color: #343434;
 }
-.art-07-content-title div {
-  margin-left: 10px;
-}
+.art-07-content-title div {margin-left: 10px;}
 .art-07-content-title div h4 {
   font-weight: 700;
   color: #343434;
@@ -512,6 +594,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   font-weight: 300;
   color: #959595;
 }
+
 
 /* ========== section 08 ========== */
 .art-08 {
@@ -530,7 +613,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   color: #a9a9ac;
 }
 .art-08-content {
-  width: 496px;
+  width: 508px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -553,9 +636,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   background: rgba(0, 0, 0, 0.4);
   border-radius: 0 0 8px 8px;
 }
-.art-08-box > div > ul {
-  margin-left: 15px;
-}
+.art-08-box > div > ul {margin-left: 15px;}
 .art-08-box > div > ul > li {
   display: flex;
   align-items: center;
@@ -567,6 +648,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   font-size: 11px;
   color: #f4f5f6;
 }
+.art-08-box-02 {margin-right: 20px;}
+
 
 /* ========== section 09 ========== */
 .art-09 {
@@ -620,6 +703,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   margin-top: 4px;
   color: #737373;
 }
+
 
 /* ========== footer ========== */
 footer {

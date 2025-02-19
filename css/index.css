@@ -60,9 +60,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   border-radius: 8px;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  top: var(--swiper-pagination-top, 80%);
-}
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, 
+.swiper-pagination-fraction {top: var(--swiper-pagination-top, 80%);}
 
 /* ========== 본문 ========== */
 .txt-wrap {

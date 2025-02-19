@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main-game-manag</title>
+  <link rel="shortcut icon" href="images/favicon.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/main-game-manag.css" />
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/main-game-manag.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-menu">
+      <div class="top-menu-icon">
+        <a href="main.html"><img src="images/logo.svg" alt=""></a>
+        <ul>
+          <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
+          <li><a href="main-game.html"><img src="images/icon-bacode.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/icon-bell.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div class="search-box">
+        <img src="images/icon-search.svg" alt="">
+        <input type="search" placeholder="종목, 지역, 리그, 상품 등 검색해보세요!">
+      </div>
+    </div>
+
+    <!-- ========== game ========== -->
+    <div class="top-game-txt flex-between">
+      <div class="flex">
+        <a href="main-game.html">참여하기</a>
+        <a href="main-game-manag.html">관리하기</a>
+      </div>
+      <a href=""><img src="images/icon-more.svg" alt=""></a>
+    </div>
+
+    <nav>
+      <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
+      <ul>
+        <li><a href="#"><img src="images/icon_home-check.svg" alt=""><p>홈</p></a></li>
+        <li><a href="#"><img src="images/icon-talk.svg" alt=""><p>쏘픽</p></a></li>
+        <li><a href="#"><img src="images/icon-sports.svg" alt=""><p>스포츠</p></a></li>
+        <li><a href="#"><img src="images/icon-shop.svg" alt=""><p>쇼핑</p></a></li>
+        <li><a href="#"><img src="images/icon-my.svg" alt=""><p>MY</p></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <article class="tab">
+      <ul class="tabnav">
+        <li><a href="#tab01"><img src="images/icon-baseball.svg" alt=""><p>야구</p></a></li>
+        <li><a href="#tab02"><img src="images/icon-soccer.svg" alt=""><p>축구</p></a></li>
+        <li><a href="#tab03"><img src="images/icon-golf.svg" alt=""><p>골프</p></a></li>
+      </ul>
+
+      <div class="tabcontent">
+        <div id="tab01">
+          <div class="tab-info flex-between">
+            <div class="flex-between">
+              <p>날짜</p>
+              <img src="images/icon-gameSelect.svg" alt="">
+            </div>
+            <p class="plan">예정</p>
+            <p>2024.12.14 (토) 11:00</p>
+            <p>></p>
+          </div>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-01">
+                <div class="swiper-slide-bg">
+                  <h5>리그/시합 일정</h5>
+                  <ul class="swiper-content flex-between">
+                    <li><img src="images/teamNain.jpg" alt=""><p>나인너거스</p></li>
+                    <li><h2>0</h2></li>
+                    <li><p>VS</p></li>
+                    <li><h2>0</h2></li>
+                    <li><img src="images/teamUp.jpg" alt=""><p>팀업패밀리</p></li>
+                  </ul>
+                  <div class="game-btn"><p>참/불참 확인</p></div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-02">
+                <div class="swiper-slide-bg">
+                  <h5>경기장/예약 일정</h5>
+                  <div class="swiper-content flex-between">
+                    <img src="images/game-stage.png" alt="">
+                    <ul class="swiper-content-02">
+                      <li><p>팀업 탬퍼스 제 1 야구장</p></li>
+                      <li><p>경기 광주시 곤지암읍 경충대로 729<img src="images/icon-link.svg" alt=""></p></li>
+                      <li><p>070-1234-5678</p></li>
+                    </ul>
+                  </div>
+                  <div class="game-btn game-btn-02"><p>지도보기</p></div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-03">
+                <div class="swiper-slide-bg">
+                  <h5>스코어 및 성적 요약</h5>
+                  <div class="swiper-content swiper-content-03">
+                    <img src="images/icon-noScore.svg" alt="">
+                    <p>아직 시합이 진행되지 않았어요!</p>
+                  </div>
+                  <div class="game-btn"><p>자세히</p></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="tab-content">
+            <h5>소속팀 / 진행중인 리그</h5>
+            <div class="progress-team flex-between">
+              <div class="flex-between">
+                <img src="images/teamNain-wt.png" alt="">
+                <div class="progress-txt">
+                  <h5>나인너거스</h5>
+                  <p>2020 가입</p>
+                </div>
+              </div>
+              <div>
+                <img src="images/teamSuwon-wt.png" alt="">
+                <img src="images/teamCheo-wt.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab02">
+          <div class="tab-info flex-between">
+            <div class="flex-between">
+              <p>날짜</p>
+              <img src="images/icon-gameSelect.svg" alt="">
+            </div>
+            <p class="plan">예정</p>
+            <p>2024.12.14 (토) 11:00</p>
+            <p>></p>
+          </div>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-01">
+                <div class="swiper-slide-bg">
+                  <h5>리그/시합 일정</h5>
+                  <ul class="swiper-content flex-between">
+                    <li><img src="images/teamNain.jpg" alt=""><p>나인너거스</p></li>
+                    <li><h2>0</h2></li>
+                    <li><p>VS</p></li>
+                    <li><h2>0</h2></li>
+                    <li><img src="images/teamUp.jpg" alt=""><p>팀업패밀리</p></li>
+                  </ul>
+                  <div class="game-btn"><p>참/불참 확인</p></div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-02">
+                <div class="swiper-slide-bg">
+                  <h5>경기장/예약 일정</h5>
+                  <div class="swiper-content flex-between">
+                    <img src="images/game-stage.png" alt="">
+                    <ul class="swiper-content-02">
+                      <li><p>팀업 탬퍼스 제 1 야구장</p></li>
+                      <li><p>경기 광주시 곤지암읍 경충대로 729<img src="images/icon-link.svg" alt=""></p></li>
+                      <li><p>070-1234-5678</p></li>
+                    </ul>
+                  </div>
+                  <div class="game-btn game-btn-02"><p>지도보기</p></div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-03">
+                <div class="swiper-slide-bg">
+                  <h5>스코어 및 성적 요약</h5>
+                  <div class="swiper-content swiper-content-03">
+                    <img src="images/icon-noScore.svg" alt="">
+                    <p>아직 시합이 진행되지 않았어요!</p>
+                  </div>
+                  <div class="game-btn"><p>자세히</p></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="tab-content">
+            <h5>소속팀 / 진행중인 리그</h5>
+            <div class="progress-team flex-between">
+              <div class="flex-between">
+                <img src="images/teamNain-wt.png" alt="">
+                <div class="progress-txt">
+                  <h5>나인너거스</h5>
+                  <p>2020 가입</p>
+                </div>
+              </div>
+              <div>
+                <img src="images/teamSuwon-wt.png" alt="">
+                <img src="images/teamCheo-wt.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="tab03">tab3 content</div>
+      </div>
+      <script>
+        const swiper = new Swiper('.swiper', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+    </article>
+  </section>
+</body>
+</html>
