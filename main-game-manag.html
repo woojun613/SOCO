@@ -21,7 +21,7 @@
         <ul>
           <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
           <li><a href="main-game.html"><img src="images/icon-bacode.svg" alt=""></a></li>
-          <li><a href="#"><img src="images/icon-bell.svg" alt=""></a></li>
+          <li><a href="main-alarm.html"><img src="images/icon-bell.svg" alt=""></a></li>
         </ul>
       </div>
 
@@ -43,7 +43,7 @@
     <nav>
       <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
       <ul>
-        <li><a href="#"><img src="images/icon_home-check.svg" alt=""><p>홈</p></a></li>
+        <li><a href="main.html"><img src="images/icon_home-check.svg" alt=""><p>홈</p></a></li>
         <li><a href="#"><img src="images/icon-talk.svg" alt=""><p>쏘픽</p></a></li>
         <li><a href="#"><img src="images/icon-sports.svg" alt=""><p>스포츠</p></a></li>
         <li><a href="#"><img src="images/icon-shop.svg" alt=""><p>쇼핑</p></a></li>
@@ -211,7 +211,91 @@
           </div>
         </div>
 
-        <div id="tab03">tab3 content</div>
+        <div id="tab03">
+          <div class="tab-info flex-between">
+            <div class="flex-between">
+              <p>날짜</p>
+              <img src="images/icon-gameSelect.svg" alt="">
+            </div>
+            <p class="plan-fin">종료</p>
+            <p>2024.12.14 (토) 11:00</p>
+            <p>></p>
+          </div>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-01">
+                <div class="swiper-slide-bg">
+                  <h5>리그/시합 일정</h5>
+                  <ul class="swiper-content tab03-swiper-content flex-between">
+                    <li>
+                      <img src="images/frofile-01.png" alt="">
+                      <p>내꿈은축구왕</p>
+                      <p class="loss">패</p>
+                    </li>
+                    <li>
+                      <h2>107</h2>
+                      <p>(+40)</p>
+                    </li>
+                    <li><p>VS</p></li>
+                    <li>
+                      <h2>116</h2>
+                      <p>(+49)</p>
+                    </li>
+                    <li><img src="images/frofile-02.png" alt=""><p>일타박세리</p></li>
+                  </ul>
+                  <div class="game-btn"><p>기록 보기</p></div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-02">
+                <div class="swiper-slide-bg">
+                  <h5>경기장/예약 일정</h5>
+                  <div class="swiper-content flex-between">
+                    <img src="images/game-stage-02.png" alt="">
+                    <ul class="swiper-content-02">
+                      <li><p>베스트 스크린 골프존</p></li>
+                      <li><p>경기 광명시 밤일로 10<img src="images/icon-link.svg" alt=""></p></li>
+                      <li><p>0507-1489-7843</p></li>
+                    </ul>
+                  </div>
+                  <div class="tab03-btn flex-between">
+                    <div class="game-btn game-btn-02"><p>다시예약</p></div>
+                    <div class="game-btn game-btn-02"><p>지도보기</p></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide slide-03">
+                <div class="swiper-slide-bg">
+                  <h5>스코어 및 성적 요약</h5>
+                  <div class="swiper-content flex-between">
+                    <div class="game-graph">
+                      <h3>107</h3>
+                      <p>타수</p>
+                    </div>
+                    <ul class="tab03-swiper-content-02">
+                      <li><p>평균 비거리</p><h4>143m</h4></li>
+                      <li><p>최대 비거리</p><h4>224m</h4></li>
+                      <li><p>평균 퍼팅수</p><h4>2.5</h4></li>
+                    </ul>
+                  </div>
+                  <div class="game-btn"><p>자세히</p></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="tab-content">
+            <h5>소속팀 / 진행중인 리그</h5>
+            <div class="tab03-progress-team flex-between">
+              <p>무소속</p>
+              <img src="images/teamNain-wt.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
       <script>
         const swiper = new Swiper('.swiper', {
