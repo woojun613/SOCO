@@ -6,12 +6,12 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body {
-  background: #f8f9f9;
+  background: #f4f5f6;
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 14px;
 }
-h2 {font-size: 24px;}
-h3, h4, h5 {font-weight: 500;}
+h2 {font-size: 24px; color: #343434;}
+h3, h4, h5 {font-weight: 500; color: #343434;}
 h3 {font-size: 20px;}
 h4 {font-size: 17px;}
 h5 {font-size: 15px;}

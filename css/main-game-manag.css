@@ -96,11 +96,8 @@ nav ul li a p {
 }
 
 
-/* ========== 스와이퍼 ========== */
-.swiper-slide h5 {
-  color: #343434;
-  text-align: center;
-}
+
+.swiper-slide h5 {text-align: center;}
 .swiper-wrapper {height: 300px;}
 .swiper-content {height: 160px;}
 .swiper-content > li:first-child,
@@ -158,12 +155,15 @@ nav ul li a p {
 }
 .game-btn > p {color: #f8f9f9;}
 
-.game-btn-02 {background: #eee;}
+.game-btn-02, .game-btn-03 {background: #eee;}
 .game-btn-02 > p {
   font-weight: 400;
   color: #343434;
 }
-
+.game-btn-03 > p {
+  font-weight: 300;
+  color: #c5c5c5;
+}
 
 /* 페이저 버튼 */
 .swiper-pagination-bullet {
@@ -274,3 +274,80 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   color: #a9a9ac;
 }
 .progress-team div:last-child img:last-child {margin-left: 10px;}
+
+/* ========== tab02 content ========== */
+.plan-fin {
+  padding: 4px 10px;
+  color: #959595 !important;
+  background: #eee;
+  border-radius: 20px;
+}
+.tab03-swiper-content > li {text-align: center;}
+
+.tab03-swiper-content > li:first-child {position: relative;}
+.tab03-swiper-content > li:first-child
+.loss {
+  position: absolute;
+  margin-top: 0;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #f8f9f9;
+  text-align: center;
+  line-height: 20px;
+  background: #c5c5c5;
+  border-radius: 10px;
+}
+
+.tab03-swiper-content > li:nth-child(2) h2 {color: #60e886;}
+.tab03-swiper-content > li:nth-child(4) h2 {color: #c5c5c5;}
+
+.tab03-swiper-content > li:nth-child(2) p,
+.tab03-swiper-content > li:nth-child(4) p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #c5c5c5;
+}
+
+.tab03-swiper-content > li:first-child p,
+.tab03-swiper-content > li:last-child p {width: 78px;}
+
+.tab03-btn div:first-child {
+  margin-right: 8px;
+  background: #115740;
+}
+.tab03-btn div:first-child p {
+  font-weight: 300;
+  color: #f8f9f9;
+}
+
+.game-graph {
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  background: url('../images/game-graph.svg') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.game-graph h3 {font-weight: 700;}
+.game-graph p {color: #a9a9ac;}
+.tab03-swiper-content-02 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab03-swiper-content-02 li p {
+  margin-right: 27px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #616163;
+}
+.tab03-progress-team {
+  margin-top: 27px;
+  padding-left: 65px;
+  padding-right: 62px;
+}
+.tab03-progress-team p {color: #a9a9ac;}
