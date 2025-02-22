@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>main-game-manag</title>
+  <title>sports</title>
   <link rel="shortcut icon" href="images/favicon.svg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/main-game-manag.css" />
+  <link rel="stylesheet" href="css/sport.css" />
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
@@ -15,37 +15,21 @@
 </head>
 <body>
   <header>
-    <div class="top-menu">
-      <div class="top-menu-icon">
-        <a href="main.html"><img src="images/logo.svg" alt=""></a>
-        <ul>
-          <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
-          <li><a href="main-game.html"><img src="images/icon-bacode.svg" alt=""></a></li>
-          <li><a href="main-alarm.html"><img src="images/icon-bell.svg" alt=""></a></li>
-        </ul>
-      </div>
-
-      <div class="search-box">
-        <img src="images/icon-search.svg" alt="">
-        <input type="search" placeholder="종목, 지역, 리그, 상품 등 검색해보세요!">
-      </div>
-    </div>
-
-    <!-- ========== game ========== -->
-    <div class="top-game-txt flex-between">
-      <div class="flex">
-        <a href="main-game.html">참여하기</a>
-        <a href="main-game-manag.html">관리하기</a>
-      </div>
-      <a href=""><img src="images/icon-more.svg" alt=""></a>
+    <div class="top-menu flex-between">
+      <a href="main.html"><img src="images/logo.svg" alt=""></a>
+      <ul>
+        <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
+        <li><a href="main-game.html"><img src="images/icon-bacode.svg" alt=""></a></li>
+        <li><a href="main-alarm.html"><img src="images/icon-bell.svg" alt=""></a></li>
+      </ul>
     </div>
 
     <nav>
       <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
       <ul>
-        <li><a href="main.html"><img src="images/icon_home-check.svg" alt=""><p>홈</p></a></li>
+        <li><a href="main.html"><img src="images/icon-home.svg" alt=""><p>홈</p></a></li>
         <li><a href="sopic.html"><img src="images/icon-talk.svg" alt=""><p>쏘픽</p></a></li>
-        <li><a href="sports.html"><img src="images/icon-sports.svg" alt=""><p>스포츠</p></a></li>
+        <li><a href="sports.html"><img src="images/icon-sport-scheck.svg" alt=""><p>스포츠</p></a></li>
         <li><a href="#"><img src="images/icon-shop.svg" alt=""><p>쇼핑</p></a></li>
         <li><a href="#"><img src="images/icon-my.svg" alt=""><p>MY</p></a></li>
       </ul>
@@ -53,7 +37,34 @@
   </header>
 
   <section>
+    <article>
+      <!-- ========== sports ========== -->
+      <div class="top-sports">
+        <a href="#" class="flex-between">
+          <p>친구 추천하고 <span class="txt-green">3,000원</span> 쿠폰 받기!</p>
+          <img src="images/sports-coupon.png" alt="">
+        </a>
+
+        <div class="middle-sports">
+          <div class="flex-between">
+            <div class="middle-sports-txt">
+              <h5>스윙 자세 교정 받고</h5>
+              <h4>포인트도 받아요!</h4>
+            </div>
+            <img src="images/sports-tennes.png" alt="">
+          </div>
+          <button class="btn btn-primary">확인하기</button>
+        </div>
+
+        <div class="bottom-sports flex">
+          <div class="flex"><img src="images/icon-sports-record.svg" alt=""><p>일정/기록</p></div>
+          <div class="flex"><img src="images/icon-sports-setting.svg" alt=""><p>연동관리</p></div>
+        </div>
+      </div>
+    </article>
+
     <article class="tab">
+      <h4>최근 기록</h4>
       <ul class="tabnav">
         <li><a href="#tab01"><img src="images/icon-baseball.svg" alt=""><p>야구</p></a></li>
         <li><a href="#tab02"><img src="images/icon-soccer.svg" alt=""><p>축구</p></a></li>
@@ -117,23 +128,6 @@
             </div>
             <div class="swiper-pagination"></div>
           </div>
-
-          <div class="tab-content">
-            <h5>소속팀 / 진행중인 리그</h5>
-            <div class="progress-team flex-between">
-              <div class="flex-between">
-                <img src="images/teamNain-wt.png" alt="">
-                <div class="progress-txt">
-                  <h5>나인너거스</h5>
-                  <p>2020 가입</p>
-                </div>
-              </div>
-              <div>
-                <img src="images/teamSuwon-wt.png" alt="">
-                <img src="images/teamCheo-wt.png" alt="">
-              </div>
-            </div>
-          </div>
         </div>
 
         <div id="tab02">
@@ -191,23 +185,6 @@
 
             </div>
             <div class="swiper-pagination"></div>
-          </div>
-
-          <div class="tab-content">
-            <h5>소속팀 / 진행중인 리그</h5>
-            <div class="progress-team flex-between">
-              <div class="flex-between">
-                <img src="images/teamNain-wt.png" alt="">
-                <div class="progress-txt">
-                  <h5>나인너거스</h5>
-                  <p>2020 가입</p>
-                </div>
-              </div>
-              <div>
-                <img src="images/teamSuwon-wt.png" alt="">
-                <img src="images/teamCheo-wt.png" alt="">
-              </div>
-            </div>
           </div>
         </div>
 
@@ -287,14 +264,6 @@
             </div>
             <div class="swiper-pagination"></div>
           </div>
-
-          <div class="tab-content">
-            <h5>소속팀 / 진행중인 리그</h5>
-            <div class="tab03-progress-team flex-between">
-              <p>무소속</p>
-              <img src="images/teamNain-wt.png" alt="">
-            </div>
-          </div>
         </div>
       </div>
       <script>
@@ -304,6 +273,68 @@
           },
         });
       </script>
+    </article>
+
+    <article class="sports-interlock">
+      <div class="interlock-txt flex-between">
+        <h4>연동 목록</h4>
+        <a href="#"><img src="images/icon-sequence.svg" alt="">순서 편집</a>
+      </div>
+
+      <div class="interlock-content">
+        <div class="interlock-content-title flex-between">
+          <p>골프</p>
+          <p>3개 연동중</p>
+        </div>
+
+        <ul>
+          <li class="flex"><img src="images/sports-content-01.png" alt=""><p>골프존</p></li>
+          <li class="flex"><img src="images/sports-content-02.png" alt=""><p>프렌즈스크린</p></li>
+          <li class="flex"><img src="images/sports-content-03.png" alt=""><p>김캐디</p></li>
+        </ul>
+      </div>
+
+      <div class="interlock-content">
+        <div class="interlock-content-title flex-between">
+          <p>축구</p>
+          <p>2개 연동중</p>
+        </div>
+
+        <ul>
+          <li class="flex"><img src="images/sports-content-04.png" alt=""><p>아이엠그라운드</p></li>
+          <li class="flex"><img src="images/sports-content-05.png" alt=""><p>뚜잇</p></li>
+        </ul>
+      </div>
+
+      <div class="interlock-content">
+        <div class="interlock-content-title flex-between">
+          <p>야구</p>
+          <p>2개 연동중</p>
+        </div>
+
+        <ul>
+          <li class="flex"><img src="images/sports-content-06.png" alt=""><p>게임원</p></li>
+          <li class="flex"><img src="images/sports-content-07.png" alt=""><p>스트라이크존</p></li>
+        </ul>
+      </div>
+
+      <div class="interlock-content">
+        <div class="interlock-content-title flex-between">
+          <p>테니스</p>
+          <p>3개 연동중</p>
+        </div>
+
+        <ul>
+          <li class="flex"><img src="images/sports-content-08.png" alt=""><p>스매시</p></li>
+          <li class="flex"><img src="images/sports-content-09.png" alt=""><p>플레져</p></li>
+          <li class="flex"><img src="images/sports-content-10.png" alt=""><p>테니스타운</p></li>
+        </ul>
+      </div>
+
+      <div class="interlock-content interlock-last flex">
+        <img src="images/icon-puls.svg" alt="">
+        <p>종목 추가하기</p>
+      </div>
     </article>
   </section>
 </body>
