@@ -259,6 +259,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   padding-left: 20px;
   padding-right: 20px;
 }
+.art-02 h4 {padding-left: 6px;}
 .art-02 ul {
   margin-top: 30px;
   display: flex;
@@ -266,7 +267,6 @@ bottom: var(--swiper-pagination-bottom, 20px);
 }
 .art-02 ul li a {
   width: 64px;
-  /* height: 53px; */
   text-align: center;
 }
 .art-02 ul li a p {
@@ -285,7 +285,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-left: 6px;
+  padding-right: 26px;
 }
 .art-03-txt a {
   font-weight: 300;
@@ -363,6 +364,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 6px;
 }
 .art-04-txt a {
   font-weight: 300;
@@ -422,6 +424,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 6px;
 }
 .art-05-txt-sel {
   display: flex;
@@ -478,7 +481,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-left: 6px;
+  padding-right: 26px;
 }
 .art-06-txt a {
   font-weight: 300;
@@ -522,7 +526,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-left: 6px;
+  padding-right: 26px;
 }
 .art-07-txt a {
   font-weight: 300;
@@ -603,7 +608,8 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-left: 6px;
+  padding-right: 26px;
 }
 .art-08-txt a {
   font-weight: 300;
@@ -660,6 +666,7 @@ bottom: var(--swiper-pagination-bottom, 20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 6px;
 }
 .art-09-txt a {
   font-weight: 300;

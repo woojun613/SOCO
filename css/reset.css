@@ -27,8 +27,11 @@ a {
 }
 ul,ol {list-style:none;}
 input,textarea,button,label {
-  width: 100%;
   display:block; 
+  width: 100%;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-weight: 400;
+  font-size: 14px;
   outline:0; 
   background:none; 
   border:0;

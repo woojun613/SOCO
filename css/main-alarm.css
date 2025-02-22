@@ -121,6 +121,7 @@ nav ul li a p {
 .msg-content h4 {
   margin-top: 40px;
   margin-bottom: 24px;
+  padding-left: 6px;
 }
 .msg-content > img {
   margin-top: 17px;
