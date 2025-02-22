@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {background: #fff;}
+
+/* ========== main top header ========== */
+.top-menu {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.top-menu-title li {margin-right: 18px;}
+.top-menu-title li a h3::after {
+  content: "";
+  display: block;
+  width: 20px;
+  border-bottom: 2px solid #343434;
+  margin: 10px auto;
+}
+
+.top-menu-title li:nth-child(2) a h3::after,
+.top-menu-title li:last-child a h3::after {opacity: 0;}
+
+.top-menu ul:last-child {display: flex;}
+.top-menu ul:last-child li {margin-left: 2px;}
+
+
+.top-menu-txt {
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+.top-menu-txt li {
+  margin-right: 20px;
+  text-align: center;
+}
+.top-menu-txt li p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #959595;
+}
+.top-menu-txt li:first-child img {
+  border: 1px solid #343434;
+  border-radius: 50%;
+}
+.top-menu-txt li:first-child p {color: #343434;}
+
+
+/* ========== nav ========== */
+#top-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 100px;
+  width: 45px;
+  height: 45px;
+  background: #115740;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40.5px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+  z-index: 999;
+}
+#top-btn img {vertical-align: middle;}
+nav ul {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 88px;
+  bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+  box-shadow: -2px 0 20px 0 rgba(0, 0, 0, 0.08);
+  z-index: 999;
+}
+nav ul li a p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 11px;
+  color: #737373;
+}
+nav ul li:nth-child(2) a p {color: #343434;}
+
+
+/* ========== section 01 ========== */
+.art-01 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.art-01-content li {margin-right: 8px;}
+
+.overflow {
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+/* ========== section 02 ========== */
+.art-02 {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 146px;
+}
+.art-02-content {margin-top: 16px;}
+.event-select {
+  margin-left: 0;
+  width: 62px;
+  padding-right: 10px;
+}
+.art-02-select select:nth-child(2) {width: 86px;}
+.art-02-content a {
+  padding: 6px;
+  text-align: center;
+  line-height: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.art-02-txt {
+  margin-top: 16px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #616163;
+}
+.art-02-txt img {vertical-align: middle;}
+
+.search-box {margin-top: 18px;}
+
+.art-02-container {margin-top: 16px;}
+
+.art-02-container-02,
+.art-02-container-03,
+.art-02-container-04 {margin-top: 4px;}
+
+.art-02-container-01 div:nth-child(1) {position: relative; background: url('../images/sopic-container-01.png') center center no-repeat; background-size: cover;}
+.art-02-container-01 div:nth-child(2) {position: relative; background: url('../images/sopic-container-02.png') center center no-repeat; background-size: cover;}
+.art-02-container-01 div:nth-child(3) {position: relative; background: url('../images/sopic-container-03.png') center center no-repeat; background-size: cover;}
+.art-02-container-02 div:nth-child(1) {position: relative; background: url('../images/sopic-container-04.png') center center no-repeat; background-size: cover;}
+.art-02-container-02 div:nth-child(2) {position: relative; background: url('../images/sopic-container-05.png') center center no-repeat; background-size: cover;}
+.art-02-container-03 div:nth-child(1) {position: relative; background: url('../images/sopic-container-06.png') center center no-repeat; background-size: cover;}
+.art-02-container-03 div:nth-child(2) div:nth-child(1) {position: relative; background: url('../images/sopic-container-07.png') center center no-repeat; background-size: cover;}
+.art-02-container-03 div:nth-child(2) div:nth-child(2) {position: relative; background: url('../images/sopic-container-08.png') center center no-repeat; background-size: cover;}
+.art-02-container-04 div:nth-child(1) {position: relative; background: url('../images/sopic-container-09.png') center center no-repeat; background-size: cover;}
+.art-02-container-04 div:nth-child(2) {position: relative; background: url('../images/sopic-container-10.png') center center no-repeat; background-size: cover;}
+.art-02-container-04 div:nth-child(3) {position: relative; background: url('../images/sopic-container-02.png') center center no-repeat; background-size: cover;}
+
+.art-02-container img {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.art-02-container-01 div:nth-child(1),
+.art-02-container-01 div:nth-child(2),
+.art-02-container-01 div:nth-child(3) {
+  margin-right: 4px;
+  width: 100%;
+  height: 142px;
+  border-radius: 6px;
+}
+.art-02-container-01 div:last-child {margin-right: 0;}
+
+.art-02-container-02 div:nth-child(1),
+.art-02-container-02 div:nth-child(2) {
+  margin-right: 4px;
+  height: 142px;
+  border-radius: 6px;
+}
+.art-02-container-02 div:nth-child(1) {width: 100%;}
+.art-02-container-02 div:nth-child(2) {width: calc(200% + 12px);}
+
+.art-02-container-02 div:last-child {margin-right: 0;}
+
+.art-02-container-03 > div:nth-child(1),
+.art-02-container-03 > div:nth-child(2) {
+  margin-right: 4px;
+  height: 288px;
+  border-radius: 6px;
+}
+.art-02-container-03 > div:nth-child(2) div {height: 142px; border-radius: 6px;}
+.art-02-container-03 > div:nth-child(2) div:last-child {margin-top: 4px; border-radius: 6px;}
+
+.art-02-container-03 > div:nth-child(1) {width: calc(200% + 12px);}
+.art-02-container-03 > div:nth-child(2) {width: 100%;}
+
+.art-02-container-03 > div:last-child {margin-right: 0;}
+
+.art-02-container-04 div:nth-child(1),
+.art-02-container-04 div:nth-child(2),
+.art-02-container-04 div:nth-child(3) {
+  margin-right: 4px;
+  width: 100%;
+  height: 142px;
+  border-radius: 6px;
+}
+.art-02-container-04 div:last-child {margin-right: 0;}
+
+.art-02-container-title-min {
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+.art-02-container-txt-min {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #d8d8d8;
+}
+
+.art-02-container-03 > div:nth-child(1) > h3 {
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  color: #f8f9f9;
+}
+.art-02-container-03 > div:first-child > p {
+  position: absolute;
+  left: 14px;
+  bottom: 74px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #eee;
+}
+

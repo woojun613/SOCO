@@ -11,10 +11,8 @@
   display: flex; 
   justify-content: space-between;
 }
-.top-menu-icon ul {
-  display: flex;
-  margin-left: 2px;
-}
+.top-menu-icon ul {display: flex;}
+.top-menu-icon ul li {margin-left: 2px;}
 
 .top-menu-txt {
   margin-top: 50px;

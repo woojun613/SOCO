@@ -11,10 +11,8 @@
   display: flex; 
   justify-content: space-between;
 }
-.top-menu-icon ul {
-  display: flex;
-  margin-left: 2px;
-}
+.top-menu-icon ul {display: flex;}
+.top-menu-icon ul li {margin-left: 2px;}
 .search-box {margin-top: 10px;}
 .top-menu-txt {
   margin-top: 50px;
@@ -158,7 +156,7 @@ nav ul li a p {
   font-size: 11px;
   color: #737373;
 }
-
+nav ul li:first-child a p {color: #343434;}
 
 /* ========== 좋아요, 북마크 ========== */
 .hreat {
