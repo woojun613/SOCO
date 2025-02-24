@@ -12,6 +12,8 @@ body {background: #fff;}
 }
 
 .top-menu-title li {margin-right: 18px;}
+.top-menu-title li:first-child a h3 {color: #343434;}
+.top-menu-title li a h3 {color: #d8d8d8;}
 .top-menu-title li a h3::after {
   content: "";
   display: block;

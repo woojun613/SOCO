@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shopping</title>
+  <link rel="shortcut icon" href="images/favicon.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/shopping.css" />
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-menu">
+      <div class="top-menu-icon">
+        <ul class="top-menu-title flex">
+          <li><a href="shopping.html"><h3>소코몰</h3></a></li>
+          <li><a href="#"><h3>벼룩시장</h3></a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><img src="images/icon-search.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/icon-myshop.svg" alt=""></a></li>
+          <li><a href="main-alarm.html"><img src="images/icon-bell.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div class="search-box">
+        <img src="images/icon-search-green.svg" alt="">
+        <input type="search" placeholder="골프, 프리미엄 브랜드">
+      </div>
+    </div>
+
+    <nav>
+      <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
+      <ul>
+        <li><a href="main.html"><img src="images/icon-home.svg" alt=""><p>홈</p></a></li>
+        <li><a href="sopic.html"><img src="images/icon-talk.svg" alt=""><p>쏘픽</p></a></li>
+        <li><a href="sports.html"><img src="images/icon-sports.svg" alt=""><p>스포츠</p></a></li>
+        <li><a href="shopping.html"><img src="images/icon-shop-check.svg" alt=""><p>쇼핑</p></a></li>
+        <li><a href="#"><img src="images/icon-my.svg" alt=""><p>MY</p></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+
+    <!-- ========== section 01 ========== -->
+    <article class="art-01">
+      <div class="overflow">
+        <ul class="shop-menu flex-between">
+          <li><img src="images/icon-shop-menu.svg" alt=""></li>
+          <li><p>홈</p></li>
+          <li><p>랭킹</p></li>
+          <li><p>브랜드</p></li>
+          <li><p>매거진</p></li>
+          <li><p>브랜드</p></li>
+          <li><p>기타</p></li>
+        </ul>
+      </div>
+
+      <img src="images/shop-01.png" alt="">
+
+      <h3>스타일을 부탁해!</h3>
+      <div class="shop-txt">
+        <p>
+          최소한의 부피로 활동성과 스타일을<br> 
+          동시에 만족시키는 스포츠 웨어
+        </p>
+        <div class="flex">
+          <img src="images/icon-shop-stop.svg" alt="">
+          <img src="images/icon-shop-page.svg" alt="">
+        </div>
+      </div>
+
+      <div class="shop-slide-bg">
+        <img src="images/shop-slider-nav.svg" alt="">
+      </div>
+
+      <ul class="shop-supplies flex-between">
+        <li>
+          <img src="images/shop-01-01.png" alt="">
+          <p>스타일</p>
+        </li>
+        <li>
+          <img src="images/shop-01-02.png" alt="">
+          <p>라켓/채</p>
+        </li>
+        <li>
+          <img src="images/shop-01-03.png" alt="">
+          <p>기능성</p>
+        </li>
+        <li>
+          <img src="images/shop-01-04.png" alt="">
+          <p>보호용품</p>
+        </li>
+        <li>
+          <img src="images/shop-01-05.png" alt="">
+          <p>단체</p>
+        </li>
+      </ul>
+      <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-01"></div>
+          <div class="swiper-slide slide-02"></div>
+          <div class="swiper-slide slide-03"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script>
+        const swiper = new Swiper('.swiper', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script> -->
+    </article>
+
+    <!-- ========== section 02 ========== -->
+    <article class="art-02">
+      <div class="art-02-txt">
+        <h4>추천 아이템</h4>
+        <a href="#">더보기 +</a>
+      </div>
+      <p>홍길동님을 위한 추천 상품</p>
+      
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- ============== slide-01 ============== -->
+          <div class="swiper-slide slide-01 flex">
+            <div class="art-02-box art-02-box-01">
+              <div class="art-02-img art-02-img-01">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Golden Bear</p>
+                <p>Bonded Fabric...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>138,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-02">
+              <div class="art-02-img art-02-img-02">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Rawlings</p>
+                <p>롤링스 스틸 컬렉...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>13%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-03">
+              <div class="art-02-img art-02-img-03">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Prince</p>
+                <p>W Logo band p...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>335,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-04">
+              <div class="art-02-img art-02-img-04">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Fire bee</p>
+                <p>ALCarbon FL 그...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>128,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-05">
+              <div class="art-02-img art-02-img-05">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>HEAD</p>
+                <p>스피드 PRO 2024</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>328,000<span class="won">원</span></p>
+                <p>16%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-06">
+              <div class="art-02-img art-02-img-06">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Mikasa</p>
+                <p>Beach Pro</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>87,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+          </div>
+          <!-- ============== slide-01 ============== -->
+
+          <!-- ============== slide-02 ============== -->
+          <div class="swiper-slide slide-02 flex">
+            <div class="art-02-box art-02-box-01">
+              <div class="art-02-img art-02-img-01">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Golden Bear</p>
+                <p>Bonded Fabric...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>138,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-02">
+              <div class="art-02-img art-02-img-02">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Rawlings</p>
+                <p>롤링스 스틸 컬렉...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>13%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-03">
+              <div class="art-02-img art-02-img-03">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Prince</p>
+                <p>W Logo band p...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>335,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-04">
+              <div class="art-02-img art-02-img-04">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Fire bee</p>
+                <p>ALCarbon FL 그...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>128,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-05">
+              <div class="art-02-img art-02-img-05">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>HEAD</p>
+                <p>스피드 PRO 2024</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>328,000<span class="won">원</span></p>
+                <p>16%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-06">
+              <div class="art-02-img art-02-img-06">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Mikasa</p>
+                <p>Beach Pro</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>87,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+          </div>
+          <!-- ============== slide-02 ============== -->
+
+          <!-- ============== slide-03 ============== -->
+          <div class="swiper-slide slide-03 flex">
+            <div class="art-02-box art-02-box-01">
+              <div class="art-02-img art-02-img-01">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Golden Bear</p>
+                <p>Bonded Fabric...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>138,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-02">
+              <div class="art-02-img art-02-img-02">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Rawlings</p>
+                <p>롤링스 스틸 컬렉...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>13%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-03">
+              <div class="art-02-img art-02-img-03">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Prince</p>
+                <p>W Logo band p...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>335,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+    
+            <div class="art-02-box art-02-box-04">
+              <div class="art-02-img art-02-img-04">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Fire bee</p>
+                <p>ALCarbon FL 그...</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>128,200<span class="won">원</span></p>
+                <p>20%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-05">
+              <div class="art-02-img art-02-img-05">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>HEAD</p>
+                <p>스피드 PRO 2024</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>328,000<span class="won">원</span></p>
+                <p>16%</p>
+              </div>
+            </div>
+
+            <div class="art-02-box art-02-box-06">
+              <div class="art-02-img art-02-img-06">
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="art-02-box-txt">
+                <p>Mikasa</p>
+                <p>Beach Pro</p>
+              </div>
+              <div class="art-02-content-review flex">
+                <p>87,000<span class="won">원</span></p>
+                <p>10%</p>
+              </div>
+            </div>
+          </div>
+          <!-- ============== slide-03 ============== -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <script>
+        const swiper = new Swiper('.swiper', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+
+      <img src="images/main-02-01.jpg" alt="">
+    </article>
+
+
+    <!-- ========== section 03 ========== -->
+    <article class="art-03">
+      <div class="art-03-txt">
+        <h4>주목할 브랜드</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="overflow">
+        <div class="art-03-content">
+
+          <div class="art-03-box art-03-box-01">
+            <div class="art-03-img art-03-img-01">
+              <h3>Stretch Angels</h3>
+              <p>매일 입고싶은 테니스룩</p>
+            </div>
+
+            <div class="sh flex">
+              <img src="images/shop-03-01-01.png" alt="">
+              <div class="art-03-content-title">
+                <h5>Stretch Angels</h5>
+                <p>[LCFKP54CH] 시그니쳐 배색 카라 긴팔 니트 CHARCOAL</p>
+                <div class="art-03-content-review flex">
+                  <p>389,400<span class="won">원</span></p>
+                  <p>23%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sh flex">
+              <img src="images/shop-03-01-02.png" alt="">
+              <div class="art-03-content-title">
+                <h5>Stretch Angels</h5>
+                <p>Belted High-Neck Long Coat SW4WH914-1F</p>
+                <div class="art-03-content-review flex">
+                  <p>389,400<span class="won">원</span></p>
+                  <p>23%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="art-03-box art-03-box-02">
+            <div class="art-03-img art-03-img-02">
+              <h3>XEXYMIX</h3>
+              <p>
+                클래식한 감성과 컬러를 기반으로 차별화 된<br>
+                실루엣을 지향합니다.
+              </p>
+            </div>
+
+            <div class="sh flex">
+              <img src="images/shop-03-02-01.png" alt="">
+              <div class="art-03-content-title">
+                <h5>XEXYMIX</h5>
+                <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+                <div class="art-03-content-review flex">
+                  <p>389,400<span class="won">원</span></p>
+                  <p>23%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sh flex">
+              <img src="images/shop-03-02-02.png" alt="">
+              <div class="art-03-content-title">
+                <h5>XEXYMIX</h5>
+                <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 중고골...</p>
+                <div class="art-03-content-review flex">
+                  <p>389,400<span class="won">원</span></p>
+                  <p>23%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+    <!-- ========== section 04 ========== -->
+    <article class="art-04">
+      <div class="art-04-txt">
+        <h4>핫 브랜드</h4>
+        <a href="#">더보기 +</a>
+      </div>
+      <p>지금 가장 인기있는 브랜드를 만나보세요</p>
+      
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- ============== slide-01 ============== -->
+          <div class="swiper-slide slide-01 flex">
+            <div class="sec-04-main">
+              <img src="images/shop-04-01.png" alt="" class="sec-04-mainbg">
+              <div class="sec-04-sub-po sec-04-subbg">
+                <img src="images/shop-04-02.png" alt="">
+                <img src="images/shop-04-03.png" alt="">
+              </div>
+            </div>
+            <div class="sec-04-sub flex-between">
+              <img src="images/shop-04-04.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-05.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-06.png" alt="" class="sec-04-subbg">
+            </div>
+          </div>
+          <!-- ============== slide-01 ============== -->
+
+          <!-- ============== slide-02 ============== -->
+          <div class="swiper-slide slide-02 flex">
+            <div class="sec-04-main">
+              <img src="images/shop-04-01.png" alt="" class="sec-04-mainbg">
+              <div class="sec-04-sub-po sec-04-subbg">
+                <img src="images/shop-04-02.png" alt="">
+                <img src="images/shop-04-03.png" alt="">
+              </div>
+            </div>
+            <div class="sec-04-sub flex-between">
+              <img src="images/shop-04-04.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-05.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-06.png" alt="" class="sec-04-subbg">
+            </div>
+          </div>
+          <!-- ============== slide-02 ============== -->
+
+          <!-- ============== slide-03 ============== -->
+          <div class="swiper-slide slide-03 flex">
+            <div class="sec-04-main">
+              <img src="images/shop-04-01.png" alt="" class="sec-04-mainbg">
+              <div class="sec-04-sub-po sec-04-subbg">
+                <img src="images/shop-04-02.png" alt="">
+                <img src="images/shop-04-03.png" alt="">
+              </div>
+            </div>
+            <div class="sec-04-sub flex-between">
+              <img src="images/shop-04-04.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-05.png" alt="" class="sec-04-subbg">
+              <img src="images/shop-04-06.png" alt="" class="sec-04-subbg">
+            </div>
+          </div>
+          <!-- ============== slide-03 ============== -->
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+        
+        <script>
+          const swiper2 = new Swiper('.swiper', {
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          });
+        </script>
+      </div>
+    </article>
+
+
+    <!-- ========== section 05 ========== -->
+    <article class="art-05">
+      <div class="art-05-txt">
+        <h4>인기 랭킹</h4>
+        <a href="#">더보기 +</a>
+      </div>
+      <p>지금 가장 인기있는 상품을 만나보세요</p>
+
+      <div class="art-05-content">
+        <div class="flex-between">
+          <div class="shop-05-box shop-05-01">
+            <div class="bg-shop-05-box bg-shop-05-01">
+              <p>1</p>
+              <div class="hreat hreat-off"></div>
+            </div>
+            <div class="shop-05-box-txt">
+              <p>Golden Bear</p>
+              <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 & 골프 ...</p>
+            </div>
+            <div class="art-03-content-review flex">
+              <p>389,400<span class="won">원</span></p>
+              <p>23%</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="shop-05-box shop-05-02">
+              <div class="bg-shop-05-box bg-shop-05-02">
+                <p>2</p>
+                <div class="hreat hreat-off"></div>
+              </div>
+              <div class="shop-05-box-txt">
+                <p>Golden Bear</p>
+                <p>캘러웨이 RAZR X 6S 중고아이언세트 골프 & 골프 ...</p>
+              </div>
+              <div class="art-03-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>23%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="art-05-bot">
+          <div class="flex">
+            <div class="bg-shop-05-subbox bg-shop-05-03">
+              <p>1</p>
+              <div class="hreat hreat-off"></div>
+            </div>
+            <div class="art-05-bot-txt">
+              <div class="shop-05-box-txt">
+                <p>Stretch Angels</p>
+                <p>Padded Coloration anorak<br>jumper (black)</p>
+              </div>
+              <div class="art-03-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>23%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="bg-shop-05-subbox bg-shop-05-04">
+              <p>2</p>
+              <div class="hreat hreat-off"></div>
+            </div>
+            <div class="art-05-bot-txt">
+              <div class="shop-05-box-txt">
+                <p>INJIACTIVE</p>
+                <p>[RCFPL69WH] 엘라스틱<br>스트레이트 10부 슬랙스 WHITE</p>
+              </div>
+              <div class="art-03-content-review flex">
+                <p>189,400<span class="won">원</span></p>
+                <p>23%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="bg-shop-05-subbox bg-shop-05-05">
+              <p>3</p>
+              <div class="hreat hreat-off"></div>
+            </div>
+            <div class="art-05-bot-txt">
+              <div class="shop-05-box-txt">
+                <p>FAIRLIAR GOLF</p>
+                <p>[FL시그니처]진주 플레어<br>플리츠 스커트(화이트)</p>
+              </div>
+              <div class="art-03-content-review flex">
+                <p>389,400<span class="won">원</span></p>
+                <p>23%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+</body>
+</html>
