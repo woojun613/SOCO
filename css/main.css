@@ -32,6 +32,84 @@
   z-index: -1;
 }
 
+/* ========== login ========== */
+.login {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* transition: all ease-in 0.4s; */
+  z-index: 999999;
+}
+.login-box {
+  background: #f4f5f6;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 0 16px 16px;
+}
+.login-menu {position: relative;}
+.login-menu h4 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.login-menu > a {
+  float: right;
+}
+.login-menu-txt {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.login-content {
+  background: #fff;
+  margin-top: 42px;
+  padding: 20px 20px 0;
+  width: 100%;
+  border-radius: 8px;
+}
+.login-content ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 4px 16px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.login-content ul li:last-child {margin-bottom: 0;}
+.login-content ul li p {color: #343434;}
+
+.login-bn {
+  margin-top: 10px;
+}
+.login-bn-txt {margin-left: 6px;}
+.login-bn-txt p:first-child {
+  font-size: 11px;
+  font-weight: 300;
+  color: #959595;
+}
+.login-bn-txt p:last-child {
+  margin-top: 8px;
+  font-weight: 500;
+  color: #343434;
+}
+
+.login-bot p {
+  margin: 16px 0;
+  width: 50%;
+  font-weight: 400;
+  color: #737373;
+  text-align: center;
+}
+.login-bot p:first-child {border-right: 1px solid #c5c5c5;}
+
+.login-active {top: 0;}
+
 
 /* ========== main game ========== */
 .top-game {

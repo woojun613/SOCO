@@ -28,3 +28,14 @@ $(function(){
     $(this).toggleClass("hreat-on")
   });
 })
+
+// 로그인 이벤트
+$(function(){
+  $("#login-down").click(function(){
+    $(".login").addClass("login-active")
+  });
+
+  $("#login-up").click(function(){
+    $(".login").removeClass("login-active")
+  });
+})
