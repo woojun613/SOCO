@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>search</title>
+  <link rel="shortcut icon" href="images/favicon.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/search.css" />
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-menu flex">
+      <a href="javascript:history.back();"><img src="images/icon_back.svg" alt=""></a>
+      <h4>검색</h4>
+    </div>
+
+    <div class="top-menu-txt">
+      <h3>필요한 정보를 찾아드릴게요</h3>
+      <p>뭐든지 검색해보시면 알려드릴게요</p>
+
+      <div class="search-box">
+        <img src="images/icon-search.svg" alt="">
+        <input type="search" placeholder="종목, 지역, 리그, 상품 등 검색해보세요!">
+      </div>
+
+      <div class="recent recent-01">
+        <div class="search-title flex-between">
+          <p>최근 검색어</p>
+          <a>전체 삭제</a>
+        </div>
+        <ul class="flex-between">
+          <li><p>스크린골프</p><img src="images/icon-delete.svg" alt=""></li>
+          <li><p>야구장</p><img src="images/icon-delete.svg" alt=""></li>
+          <li><p>테니스장</p><img src="images/icon-delete.svg" alt=""></li>
+          <li><p>라켓</p><img src="images/icon-delete.svg" alt=""></li>
+        </ul>
+      </div>
+
+      <div class="recent recent-02">
+        <div class="search-title flex">
+          <p>요즘 뜨는 검색어</p>
+          <p>관심 종목 위주로 보여드려요!</p>
+        </div>
+        <ul class="flex">
+          <li><p>새컨드랠리</p></li>
+          <li><p>리그</p></li>
+          <li><p>명가글러브</p></li>
+          <li><p>고스피어</p></li>
+          <li><p>테일러메이드</p></li>
+          <li><p>세인트나인</p></li>
+          <li><p>휠라</p></li>
+        </ul>
+      </div>
+    </div>
+    
+    <nav>
+      <a id="top-btn" href="#"><img src="images/icon-topScroll.svg" alt=""></a>
+      <ul>
+        <li><a href="main.html"><img src="images/icon_home-check.svg" alt=""><p>홈</p></a></li>
+        <li><a href="sopic.html"><img src="images/icon-talk.svg" alt=""><p>쏘픽</p></a></li>
+        <li><a href="sports.html"><img src="images/icon-sports.svg" alt=""><p>스포츠</p></a></li>
+        <li><a href="shopping.html"><img src="images/icon-shop.svg" alt=""><p>쇼핑</p></a></li>
+        <li><a href="#"><img src="images/icon-my.svg" alt=""><p>MY</p></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+
+    <!-- ========== section 01 ========== -->
+    <article class="art-01">
+      <div class="art-01-txt">
+        <h4>이런 상품 어때요?</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="overflow">
+        <div class="art-01-content">
+
+          <div class="art-01-box">
+            <div class="art-01-box-01">
+              <div class="hreat hreat-off"></div>
+            </div>
+            <h5>테니스볼 소프트 크...</h5>
+            <div class="art-01-content-review flex">
+              <p>85,200<span class="won">원</span></p>
+              <p>23%</p>
+            </div>
+          </div>
+
+          <div class="art-01-box">
+            <div class="art-01-box-02">
+              <div class="hreat hreat-off"></div>
+            </div>
+            <h5>그랜드 슬램 테니스...</h5>
+            <div class="art-01-content-review flex">
+              <p>237,700<span class="won">원</span></p>
+              <p>20%</p>
+            </div>
+          </div>
+
+          <div class="art-01-box art-01-box-last">
+            <div class="art-01-box-03">
+              <div class="hreat hreat-off"></div>
+            </div>
+            <h5>테니스 라이프 숏반...</h5>
+            <div class="art-01-content-review flex">
+              <p>389,400<span class="won">원</span></p>
+              <p>23%</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+    <!-- ========== section 02 ========== -->
+    <article class="art-02">
+      <div class="art-02-txt">
+        <h4>요즘 핫한 매장</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="overflow">
+        <div class="art-02-content">
+
+          <div class="art-02-box art-02-box-01">
+            <div class="art-02-img art-02-img-01">
+              <div class="bookmark bookmark-off"></div>
+            </div>
+            <div class="art-02-content-title flex">
+              <h5>락테니스 가로수길점</h5>
+              <img src="images/icon-new.svg" alt="">
+            </div>
+            <p>서울 영등포구 당산로48길 6 6층</p>
+            <div class="art-02-content-review flex">
+              <img src="images/icon-star.svg" alt="">
+              <p><span class="bold">4.7</span>(306)</p>
+            </div>
+          </div>
+
+          <div class="art-02-box art-02-box-02">
+            <div class="art-02-img art-02-img-02">
+              <div class="bookmark bookmark-off"></div>
+            </div>
+            <div class="art-02-content-title flex">
+              <h5>라이언훕 농구교실</h5>
+              <img src="images/icon-new.svg" alt="">
+            </div>
+            <p>경기 광명시 광명로 955 2층</p>
+            <div class="art-02-content-review flex">
+              <img src="images/icon-star.svg" alt="">
+              <p><span class="bold">4.7</span>(306)</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ========== section 03 ========== -->
+    <article class="art-03">
+      <div class="art-03-txt">
+        <h4>SOCO 매거진</h4>
+        <a href="#">더보기 +</a>
+      </div>
+
+      <div class="art-03-content-01">
+        <p>magazine 12월 호</p>
+        <h3>
+          파도를 가르는 기분<br>
+          수상레저 즐기기
+        </h3>
+      </div>
+
+      <div class="art-03-content-02 flex">
+        <img src="images/main-09-01.jpg" alt="">
+        <div>
+          <p>magazine 11월 호</p>
+          <h4>
+            Grand Open!<br>
+            가장 깔끔한 신규 구장
+          </h4>
+        </div>
+      </div>
+
+      <div class="art-03-content-03 flex">
+        <img src="images/main-09-02.jpg" alt="">
+        <div>
+          <p>magazine 10월 호</p>
+          <h4>
+            새로운 익스트림 스포츠<br> 
+            즐기기 좋은 관광지
+          </h4>
+        </div>
+      </div>
+    </article>
+  </section>
+</body>
+</html>
